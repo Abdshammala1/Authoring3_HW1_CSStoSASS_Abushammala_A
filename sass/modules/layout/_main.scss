@@ -1,0 +1,71 @@
+@import "../vars/colors";
+@import "../vars/fonts";
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: $main-fontsize;
+	background-color: $body-background;
+}
+
+.bodyC {
+	position: relative;
+	padding: 0;
+	background-color: $off-white;
+	margin-right: -15px;
+}
+
+#topPanel {
+	margin: 0;
+	position: relative;
+}
+
+.bannerContainer {
+	padding: 0;
+}
+
+.profPanelText {
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+
+.profPanel {
+	width: 445px;
+	height: 150px;
+	background-color: $off-white-secondary;
+	position: absolute;
+	left: 40px;
+	top: 70px;
+	border-radius: 8px;
+	-moz-box-shadow: 3px 3px 3px 0px $prof-panel-background;
+	-webkit-box-shadow: 3px 3px 3px 0px $prof-panel-background;
+	box-shadow: 3px 3px 3px 0px $prof-panel-background;
+	img {
+		position: absolute;
+		right: -20px;
+		top: -20px;
+	}
+	p {
+		&:first-child {
+			font-size: 3rem;
+			font-weight: 300;
+			margin-bottom: 3px;
+			span {
+				color: $prof-panel-nav;
+			}
+		}
+		&:nth-child(2) {
+			font-size: 2.2rem;
+			color: $prof-panel-top;
+			margin-top: -8px;
+		}
+	}
+	ul {
+		color: $prof-panel-nav;
+		padding-top: 5px;
+		font-weight: 300;
+	}
+	span {
+		margin-right: 8px;
+	}
+}
