@@ -1,0 +1,47 @@
+@import "../vars/colors";
+
+.discussionDrop {
+	margin: 10px 0;
+	width: 200px;
+	padding-bottom: 0;
+}
+
+.dropdown-menu {
+	margin-top: 25px;
+	padding-top: 0;
+	.circleI {
+		width: 30px;
+		height: 30px;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		background-color: $dropdown-circle-background;
+		color: $dropdown-color;
+		text-align: center;
+		font-size: 1.7rem;
+		margin: 0 10px;
+		padding-top: 5px;
+	}
+	li {
+		position: relative;
+		margin-right: 0;
+		&:hover {
+			.emptyCircle {
+				background-color: #fff;
+			}
+			.circleI {
+				background-color: #fff;
+			}
+		}
+	}
+	.divider {
+		margin: 0;
+	}
+	>li {
+		>a {
+			padding: 10px 0;
+		}
+	}
+}
+.dropdown-menu-right {
+	right: -15px;
+}
