@@ -11,11 +11,11 @@ building to show data for course name and professor name using json .
 
 Language used 
 
-html
-css
-sass
-ajax
-json
-js
+*html
+*css
+*sass
+*ajax
+*json
+*js
 
 
